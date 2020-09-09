@@ -1,0 +1,183 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+  background-image: url(https://cantemo.com/news/images/background-portal-github-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: MOVE-BG 30s linear infinite;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+html, body,#root, #root>div {
+  height: auto;
+}
+
+@keyframes MOVE-BG {
+  from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+.App > form {
+  margin: 2% auto;
+}
+
+.search{
+    background-color: rgba(87, 145, 168, 0.3);
+    border: 0;
+    padding: 10px;
+    font-size: 1rem;
+    width: 240px;
+    outline: 0;
+    color: rgb(31, 8, 8);
+    border-bottom: 1px solid #a8e644;
+    margin-right: 8px;
+    border-radius: 20px;
+    color: white;
+}
+
+::placeholder {
+  color: rgba(251, 247, 247, 0.5);
+  
+}
+
+.userProfile{
+  width: 100%;
+  height: 100%;
+}
+
+.profileHeader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 5% auto;
+}
+
+.profileHeader > h4 {
+  font-size: 1.2rem;
+  margin-right: 20%;
+  width: 50%;
+}
+
+.profileHeader > nav {
+  width: 50%;
+}
+
+.profileHeader  a {
+  font-size: 0.8rem;
+  margin-right: 20%;
+  text-decoration: none;
+  color: white
+}
+
+a:hover{
+  background-color: rgba(73, 188, 233, 0.3);
+}
+
+a:active{
+  color:red;
+}
+
+a:link {
+  color: white;
+}
+
+.userInfo{
+  border: 2px solid rgb(181 28 28 / 20%);
+  box-shadow: 1px 1px rgb(97 181 214 / 50%);
+  width: 40%;
+  margin-bottom: 5%;
+  border-radius: 20px;
+  height: auto;
+  background-color: rgb(25 185 232 / 20%);
+}
+
+.userInfo > h5 {
+  font-size: 1rem;
+}
+
+.profileImg {
+  border-radius: 100px;
+  width: 50%;
+  height: auto;
+  margin: 1% auto;
+  border: 1px solid white;
+}
+
+.userContent {
+  display: flex;
+  margin: 0% 1% 1%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userPages {
+  margin-left: 2%;
+  background-color: rgb(249 241 241 / 20%);
+  border-radius: 20px;
+  width: 60%;
+}
+
+.home {
+  height: 100%;
+  width: auto;
+}
+
+.home > img {
+  width: 100%;
+}
+
+.followers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.follower {
+    width: 80%;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgb(25 185 232 / 20%);
+    margin: 1% 0% 1% 0%;
+}
+
+.follower > img {
+    border-radius: 50px;
+    width: 15%;
+    height: auto;
+    margin: 1% auto;
+    border: 1px solid white;
+}
+
+
+.link{
+  margin-bottom: 1%;
+}
+
+.link > a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
