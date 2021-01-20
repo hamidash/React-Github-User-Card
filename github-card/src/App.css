@@ -43,3 +43,59 @@ html, body,#root, #root>div {
   margin: 2% auto;
 }
 
+.user{
+  border: solid black 2px;
+  background-color: rgb(89 241 227 / 20%);
+  box-shadow: -3px 2px #808688;
+}
+
+
+
+.user-img{
+  width: 60%;
+  margin: 1% auto;
+  border-radius: 40px;
+}
+
+
+.followers {
+
+  margin: 2% auto;
+
+}
+
+.follower{
+  border: 2px dotted;
+  margin: 2% auto;
+  border-radius: 10% 20%;
+  background: rgba(200,100,60,0.2);
+  box-shadow: 2px 2px white;
+}
+
+.follower-img{
+  width: 30%;
+    border-radius: 40%;
+    margin-top: 1%;
+}
+
+a:hover{
+  background-color: rgba(9, 241, 113, 0.5);
+}
+
+a:active{
+  color:red;
+}
+
+a:link {
+  color: white;
+  
+}
+
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+
+
